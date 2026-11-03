@@ -116,6 +116,7 @@ CHILD: {
 	COLOR_SKIN: SKIN,
 	COLOR_LEG: LEG,
 	
+	INFANT_FILE: Baxxid,
 	SPRITE_FILE: Baxxid,
 	SPRITE_SKELLETON_FILE: Baxxid,
 	NAMESET_FILE_FIRST: LzmFirst,
@@ -157,11 +158,36 @@ TYPES: [
 		],
 		
 		FACE: [
+			**Brood
+			{
+				CONDITIONS: {
+					EQUAL: {
+						TYPE_PARENT: 1,
+					},
+				},
+				FRAMES: [
+					BaxxidBaby: 0,
+				],
+				STAINS: true,
+			},
+			{
+				CONDITIONS: {
+					EQUAL: {
+						TYPE_PARENT_SLAVE: 1,
+					},
+				},
+				FRAMES: [
+					BaxxidBaby: 0,
+				],
+				STAINS: true,
+			},
 			**Chest
 			{
 				FRAMES: [
-					Chest: 26,
-					Chest: 27,
+					BaxxidChest: 0,
+					BaxxidChest: 1,
+					BaxxidChest: 2,
+					BaxxidChest: 3,
 				],
 				COLOR: SKIN,
 				STAINS: false,
@@ -175,7 +201,10 @@ TYPES: [
 					},
 				},
 				FRAMES: [
-					SlaveCollar: 0,
+					BaxxidSlaveCollar: 0,
+					BaxxidSlaveCollar: 1,
+					BaxxidSlaveCollar: 2,
+					BaxxidSlaveCollar: 3,
 				],
 				STAINS: false,
 				OFF_Y: 2,
@@ -187,7 +216,10 @@ TYPES: [
 					},
 				},
 				FRAMES: [
-					SlaveCollar: 0,
+					BaxxidSlaveCollar: 0,
+					BaxxidSlaveCollar: 1,
+					BaxxidSlaveCollar: 2,
+					BaxxidSlaveCollar: 3,
 				],
 				STAINS: false,
 				OFF_Y: 2,
@@ -195,13 +227,34 @@ TYPES: [
 			**Skull
 			{
 				FRAMES: [
-					Skull: 64,
-					Skull: 65,
-					Skull: 66,
-					Skull: 67,
+					BaxxidSkull: 0,
+					BaxxidSkull: 1,
+					BaxxidSkull: 2,
+					BaxxidSkull: 3,
 				],
 				OFF_Y: -2,
 				COLOR: SKIN,
+			},
+			**Ears
+			{
+				FRAMES: [
+					BaxxidEars: 0,
+					BaxxidEars: 1,
+					BaxxidEars: 2,
+					BaxxidEars: 3,
+				],
+				COLOR: SKIN,
+			},
+			**Hair
+			{
+				FRAMES: [
+					BaxxidHair: 0,
+					BaxxidHair: 1,
+					BaxxidHair: 2,
+					BaxxidHair: 3,
+				],
+				COLOR: SKIN,
+				STAINS: false,
 			},
 			**Warpaint
 			{
@@ -211,14 +264,10 @@ TYPES: [
 					},
 				},
 				 FRAMES: [
-					Makeup: 60,
-					Makeup: 61,
-					Makeup: 62,
-					Makeup: 63,	
-					Makeup: 64,
-					Makeup: 65,
-					Makeup: 66,
-					Makeup: 67,	
+					BaxxidMakeup: 0,
+					BaxxidMakeup: 1,
+					BaxxidMakeup: 2,
+					BaxxidMakeup: 3,
 				],
 				OFF_Y: -2,
 				COLOR: PAINT,
@@ -226,14 +275,10 @@ TYPES: [
 			**Eyes
 			{
 				FRAMES: [
-					Eyes: 44,
-					Eyes: 45,
-					Eyes: 46,
-					Eyes: 47,
-					Eyes: 48,
-					Eyes: 49,
-					Eyes: 50,
-					Eyes: 51,
+					BaxxidEyes: 0,
+					BaxxidEyes: 1,
+					BaxxidEyes: 2,
+					BaxxidEyes: 3,
 				],
 				OFF_Y: -2,
 				STAINS: false,
@@ -246,10 +291,10 @@ TYPES: [
 					},
 				},
 				FRAMES: [
-					Feature: 52,
-					Feature: 53,
-					Feature: 54,
-					Feature: 55,
+					BaxxidFeature: 0,
+					BaxxidFeature: 1,
+					BaxxidFeature: 2,
+					BaxxidFeature: 3,
 				],
 				OFF_Y: -2,
 				COLOR: SKIN,
@@ -257,32 +302,25 @@ TYPES: [
 			**Mouth
 			{
 				FRAMES: [ 
-					Mouth: 64,
-					Mouth: 65,
-					Mouth: 66,
-					Mouth: 67,
+					BaxxidMouth: 0,
+					BaxxidMouth: 1,
+					BaxxidMouth: 2,
+					BaxxidMouth: 3,
 				],
 				STAINS: false,
 				COLOR: SKIN,
 				OFF_Y: -2,
 			},
-			**Mandible
+			**Eyebrows
 			{
 				FRAMES: [ 
-					Mouth: 68,
-					Mouth: 69,
-					Mouth: 70,
-					Mouth: 71,
-					Mouth: 72,
-					Mouth: 73,
-					Mouth: 74,
-					Mouth: 75,
+					BaxxidEyebrow: 0,
+					BaxxidEyebrow: 1,
+					BaxxidEyebrow: 2,
+					BaxxidEyebrow: 3,
 				],
-				STAINS: false,
 				COLOR: SKIN,
-				OFF_Y: -2,
 			},
 		],
 	},
 ],
-
