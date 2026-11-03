@@ -6,7 +6,14 @@ A Songs of Syx mod that adds the Baxxid as a new race.
 
 ## Building
 
-Run `build.bat`. It converts the art in `art/` and installs the mod into the game's mod folder.
+Install Python and Pillow first:
+
+```powershell
+python -m pip install Pillow
+```
+
+Then run `build.bat`. It converts the art in `art/` (including Baxxid face and infant sprites in
+`art/baxxid/`) and installs the mod into the game's mod folder.
 
 ## Credits
 
