@@ -14,43 +14,43 @@ PRONOUN_CHILD: ["spawn",],
 PRONOUN_CHILDC: ["Spawn",],
 
 HELLO: [
-	"Blood of the innocent",
-	"Aminion's blessings",
-	"Claws cut deep",
+	"HHNNNNGOOD DAY",
+	"HNNNNHOW AREEE YOUU?",
+	"HHHNNNHHELLLOO",
 ],
 GOODBYE: [
-	"May your claws grow sharp",
-	"May you taste a lot of flesh",
-	"Aminion be blessed",
-	"May your shell grow thick",
-	"May you conquer your enemies and eat them",
-	"May Aminion give you strength",
+	"MMMMAAAY YOUR DAY BE BRIGHT",
+	"MMMMAY THERE BE PEACE UPON YOU",
+	"HHHNGGOODBYE",
+	"HNNNMAY YOUR SHELL GROW THICK",
+	"HNNNNHAAVE A GOOD DAY",
+	"HNNNNI HOPE TO SEE YOU LATER",
 ],
 CURSE: [
-	"Brood of Harack!",
-	"By Morlak's shell!",
-	"Gods beneath!",
-	"Morlak have mercy!",
-	"By the abyss!",
+	"HNNNBY THE VEIL!",
+	"HNNNBY THE ANCESTORS!",
+	"HNNNGODS ABOVE!",
+	"HNNNHAVE MERCY UPON ME!",
+	"HNNNBY THE TEETH!",
 ],
 INSULT: [
-	"Spawn of a Balticrawler", 
-	"Balticrawler fornicator",
-	"Fleshbag",
+	"HNNNEMBARRASSMENT OF A PERSON", 
+	"HNNNHORRIBLE SHOWING OF PRIDE",
+	"HNNNTERRIBLE EXAMPLE OF A SAPIENT",
 ],
 INSULTING: [
-	"soft-skinned", 
-	"vomit-faced",
-	"ugly-faced",
-	"clawless",
+	"HNNNNVILE", 
+	"HNNNVIOLENT",
+	"HNNNMIND-NUMBED",
+	"HNNNTURGID",
 ],
 LORD: [
-	"Queen",
-	"Hive Master",
-	"Brood Herder",
+	"HNNNELDER",
+	"HNNNGREAT ONE",
+	"HNNNMASTER",
 ],
 CITY: [
-	"hive",
+	"coalescence",
 ],
 OTHERS: [
 	"soft-skins",
@@ -68,21 +68,21 @@ CHILDREN: [
 ],
 
 DESC: 
-"The Baxxid are a very ancient race, created by Aminion during the first war of the gods. They are heavy, fast and deadly. They do not need much, but should also be kept from work."
+"The Baxxid are a large race of worm-like beings covered in chitinous growths. They're incredibly intelligent, and strong, but do not like fighting despite their aptitude for it."
 ",
 DESC_LONG:
-"During the first war of the gods, Aminion - the evil one, created the great queen of the Baxxid - Shmalor, to do his bidding. She, and her spawn served as shock troops in his armies. These creatures were as tall and wide as a longhouse and devastating to the Astarii alliance. After Aminion's imprisonment and the slaying of Shmalor, what remained of the great Baxxid retreated back into their burrows. Their blood watered down over generations, and the Baxxid living today are nothing like those of old. They are however a formidable force on the battlefield, should you manage to attract them to your cause.
+"The Baxxid are an ambush species naturally suited to dry areas. Historically hunters who would burrow into the ground and ambush their prey, the Baxxid have now evolved into a peaceful society who disdain violence. They are an incredibly logical species, thinking almost in mathematical terms. They're great at hauling, and exceptional in warfare, but they have a great distaste towards any acts of war, despite their dangerous physique."
 ",
 
 
 ARMY_NAMES: [
-	"The Spawns of Shneda",
-	"The Horde of Aminion",
-	"The Horde of Gnosh",
-	"The Conquerors of the Ethen Hills",
-	"The Whips of Aminion",
-	"The Deadly Fangs",
-	"The Destroyers of Mendive",
+	"The Spawns of Coalescence",
+	"The Horde of Baxxid",
+	"The Horde of The Teeth",
+	"The Conquerors of the Instinct",
+	"The Claws of Ivenmoth",
+	"The Deadly Worms",
+	"The Destroyers of Earth",
 	"The Original Slashers",
 	"The Pain of Men.",
 	"The Superslayers",
