@@ -24,6 +24,7 @@ OUT = os.path.join(ROOT, "src/main/resources/mod-files/assets/sprite")
 
 GRID_GREEN = (0, 255, 0, 255)
 GRID_BLUE = (0, 0, 132, 255)
+FACE_SHEET_WIDTH = 416
 
 # source file (relative to SRC) -> folder under assets/sprite; saved there as Baxxid.png
 SHEETS = {
@@ -75,7 +76,7 @@ def sheet(src, folder):
     print("wrote", os.path.relpath(path, ROOT), im.size)
 
 
-def custom_sheet(src, folder, name, size):
+def custom_sheet(src, folder, name, size, output_width=None, repeat_x=1):
     source_path = os.path.join(SRC, "baxxid", src)
     if not os.path.exists(source_path):
         print(f"no baxxid/{src} in art/, keeping existing asset")
@@ -84,10 +85,15 @@ def custom_sheet(src, folder, name, size):
         if source.size != size:
             raise SystemExit(f"baxxid/{src} is {source.size}, expected {size}")
         im = source.convert("RGBA")
+    output = im
+    if output_width is not None:
+        output = Image.new("RGBA", (output_width, im.height))
+        for frame in range(repeat_x):
+            output.paste(im, (frame * im.width, 0))
     path = os.path.join(OUT, folder, name)
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    im.save(path)
-    print("wrote", os.path.relpath(path, ROOT), im.size)
+    output.save(path)
+    print("wrote", os.path.relpath(path, ROOT), output.size)
 
 
 if __name__ == "__main__":
@@ -97,5 +103,6 @@ if __name__ == "__main__":
         else:
             print(f"no {src} in art/, keeping placeholder")
     for src, (name, size) in FACE_SHEETS.items():
-        custom_sheet(src, "race/face", name, size)
-    custom_sheet("baxxidinfant.png", "race/infant", "Baxxid.png", (176, 22))
+        repeat_x = 4 if src == "Baby.png" else 1
+        custom_sheet(src, "race/face", name, size, FACE_SHEET_WIDTH, repeat_x)
+    custom_sheet("baxxidinfant.png", "race/infant", "Baxxid.png", (352, 22))
