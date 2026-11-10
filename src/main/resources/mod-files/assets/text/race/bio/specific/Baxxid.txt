@@ -1,0 +1,56 @@
+DREAMS: [
+	"Has always dreamt of being a {RND_PROFESSION}.",
+	"Always aspired to be a {RND_PROFESSION}, just like the rest of {HIS} brood.",
+	"Dreams of one day being a great {RND_PROFESSION}.",
+	"Once burrowed deep into the earth, but has since hid the hole.",
+	"Is convinced that the Garthimi can be befriended if they just really try.",
+	"Wants to dig the biggest hole anyone has ever seen.",
+	"Thinks {HE} could fight a Smilodon and win, but also feels bad about hypothetically hurting something.",
+	"Is fascinated by humanity and wishes {HE} had hands.",
+	"Is usually eager to help, and wishes {HE} could do more.",
+	"Hopes the ancestors are proud of {HIM}.",
+	"Thinks Amevias are very scary, and thinks they should be more accepting.",
+	"Once engorged so much nutrient product that {HE} could not move.",
+],
+
+TRAIT: {
+
+},
+
+HAPPY: [
+	"Is happy with your {RACE_CITY}, but has these ideas to make it even better:",
+	"Says you are doing a good job! But also found these things:",
+	"Had to think very hard to come up with these:",
+	"Wants for nothing in your {RACE_CITY}, but heard another say they wanted these:",
+],
+HAPPY_SOSO:} 
+	"Feels there are a few things that could be better in the {RACE_CITY}:",
+	"Is mostly content, but was quick to mention:",
+	"Likes it in your {RACE_CITY}, but cannot help but want:",
+	"Thinks your {RACE_CITY} is a decent swamp to live in, but needs:",
+],
+HAPPY_NO: [
+	"Feels you can do better as a ruler. A lot better, honestly:",
+	"Clearly has some choice words about your {RACE_CITY}, but only said this:",
+	"Was close to running away in a panic, before mentioning:",
+	"Visibly thought better of insulting you and suggested the following:",
+],
+NOTHING: [
+	"Nothing more can be done. Your {RACE_CITY} is the most orderly hub!",
+],
+FUNNY: [
+	"HNNNNSTOP SCRAPING YOUR CLAAAWS ON THHEEE WALLS. HNNNIT LEAVES UNSIGHTLY IMPERFECTIONS.",
+	"HNNNNPLEASE LOOK AFTER YOURSELF BETTER. HNNNNYOU LOOK LIKE A MESS",
+	"HNNNNPERHAPS YOU COULD DO SOMETHING ABOUT ALL THE BUGS. HNNNNI DO NOT LIKE BUGS.",
+],
+
+STATS_MORE: {
+	STORED_GEM: [
+		"HNNNNIF WE HAD MORE GEMS, OUR FINANCIAL SITUATION WOULD BE A LOT MORE STABLE.",
+		"HNNNNLORD, WE SHOULD TRY TO INVEST IN MORE GEMS. HNNNNI BELIEVE IT WOULD BE VERY BENEFICIAL TO OUR COMMUNITY.",
+	],
+},
+
+STATS_LESS: {
+
+},
